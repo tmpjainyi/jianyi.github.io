@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Aviva Prins</title>
+    <link>https://avivaprins.com/tags/</link>
+      <atom:link href="https://avivaprins.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Aviva Prins</copyright><lastBuildDate>Sun, 23 Aug 2020 16:39:56 -0700</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>https://avivaprins.com/tags/</link>
+    </image>
+    
+  </channel>
+</rss>

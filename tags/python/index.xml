@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python | Aviva Prins</title>
+    <link>https://avivaprins.com/tags/python/</link>
+      <atom:link href="https://avivaprins.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>Python</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Aviva Prins</copyright><lastBuildDate>Mon, 04 Jun 2018 19:06:00 -0700</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
+      <title>Python</title>
+      <link>https://avivaprins.com/tags/python/</link>
+    </image>
+    
+    <item>
+      <title>Financial Well-Being</title>
+      <link>https://avivaprins.com/project/financial-well-being/</link>
+      <pubDate>Mon, 04 Jun 2018 19:06:00 -0700</pubDate>
+      <guid>https://avivaprins.com/project/financial-well-being/</guid>
+      <description>&lt;p&gt;One of the most commonly used tools in public policy and social sciences are surveys. In the absence of directly observable actions, self-reported surveys become indispensable in identifying and classifying high-risk individuals. One such survey, which identifies individuals under financial duress, is the subject of our project.&lt;/p&gt;
+&lt;p&gt;Using Support Vector Machines (SVM), a supervised machine learning method, we investigate whether indirect information from our survey dataset determines a respondent&amp;rsquo;s financial well-being. In addition, we utilize this dataset to investigate the dependencies of SVM. We find that we are able to correlate financial well-being with only 10% of the given questionnaire data, and that SVM performs best on two classes.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

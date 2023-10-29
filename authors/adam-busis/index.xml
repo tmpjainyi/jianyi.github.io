@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adam Busis | Aviva Prins</title>
+    <link>https://avivaprins.com/authors/adam-busis/</link>
+      <atom:link href="https://avivaprins.com/authors/adam-busis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Adam Busis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Aviva Prins</copyright><lastBuildDate>Fri, 11 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://avivaprins.com/images/icon_hu080a3ba1847442fcd1c3285526010dd3_22269_512x512_fill_lanczos_center_2.png</url>
+      <title>Adam Busis</title>
+      <link>https://avivaprins.com/authors/adam-busis/</link>
+    </image>
+    
+    <item>
+      <title>Theoretical and Experimental Investigation of Bidisperse Particle-Laden Flows on an Incline</title>
+      <link>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://avivaprins.com/publication/particle-laden-flow-summer-2017/</guid>
+      <description>&lt;p&gt;Report available on request.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
