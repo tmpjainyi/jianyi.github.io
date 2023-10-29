@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Aviva Prins</title>
-    <link>https://avivaprins.com/post/</link>
-    <description>Recent content in Posts on Aviva Prins</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Aviva Prins</copyright>
-    <lastBuildDate>Mon, 04 Jun 2018 19:02:15 -0700</lastBuildDate>
-    
-	    <atom:link href="https://avivaprins.com/post/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Posts | Sahil Verma</title>
+    <link>https://vsahil.github.io/post/</link>
+      <atom:link href="https://vsahil.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jun 2021 01:55:33 +0530</lastBuildDate>
+    <image>
+      <url>https://vsahil.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>https://vsahil.github.io/post/</link>
+    </image>
     
     <item>
-      <title>Building Engineers and Mentors</title>
-      <link>https://avivaprins.com/post/beam/</link>
-      <pubDate>Mon, 04 Jun 2018 19:02:15 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/post/beam/</guid>
-      <description>&lt;p&gt;Building Engineers and Mentors at UCLA provides K-12 students across the greater Los Angeles area with engaging activities that promote interest in science, technology, engineering, and math (STEM). The curriculum is available on their website.&lt;/p&gt;
-</description>
+      <title>Amortized Counterfactual Explanations</title>
+      <link>https://vsahil.github.io/post/amortized-counterfactuals2021/</link>
+      <pubDate>Tue, 15 Jun 2021 01:55:33 +0530</pubDate>
+      <guid>https://vsahil.github.io/post/amortized-counterfactuals2021/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Environmental Education</title>
-      <link>https://avivaprins.com/post/audubon/</link>
-      <pubDate>Sat, 04 Jun 2016 18:33:47 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/post/audubon/</guid>
-      <description>&lt;p&gt;The Los Angeles Audubon’s environmental education program at Kenneth Hahn State Recreation Area educates local students about the outdoors. Interns lead elementary and middle school students on guided walks with educational stations. The curriculum includes lessons on photosynthesis, ecosystems, ecology, and geology depending on grade level.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Women in Technology</title>
-      <link>https://avivaprins.com/post/women-in-technology/</link>
-      <pubDate>Wed, 04 Jun 2014 19:10:25 -0700</pubDate>
-      
-      <guid>https://avivaprins.com/post/women-in-technology/</guid>
-      <description>&lt;p&gt;Women in Technology is a chapter of the Association for Computing Machinery at Santa Monica College. I started the club in 2013 with Elizabeth Gross and served as Vice President. While I was an officer, we created robots, taught at the local middle school, organized the Computer Science Department&amp;rsquo;s Open House, and recieved grants from Google and other organizations.&lt;/p&gt;
-</description>
+      <title>Reinforcement Learning for Counterfactual Explanations</title>
+      <link>https://vsahil.github.io/post/counterfactuals-survey/</link>
+      <pubDate>Tue, 15 Jun 2021 01:52:06 +0530</pubDate>
+      <guid>https://vsahil.github.io/post/counterfactuals-survey/</guid>
+      <description></description>
     </item>
     
   </channel>
