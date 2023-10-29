@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="Imitation learning addresses the challenge of learning by observing an expert's demonstrations without access to reward signals from environments. Most existing imitation learning methods that do not require interacting with environments either model the expert distribution as the conditional probability p(a|s) (e.g., behavioral cloning, BC) or the joint probability p(s, a) (e.g., implicit behavioral cloning). Despite its simplicity, modeling the conditional probability with BC usually struggles with generalization. While modeling the joint probability can lead to improved generalization performance, the inference procedure can be time-consuming and it often suffers from manifold overfitting. This work proposes an imitation learning framework that benefits from modeling both the conditional and joint probability of the expert distribution. Our proposed diffusion model-augmented behavioral cloning (DBC) employs a diffusion model trained to model expert behaviors and learns a policy to optimize both the BC loss (conditional) and our proposed diffusion model loss (joint). DBC outperforms baselines in various continuous control tasks in navigation, robot arm manipulation, dexterous manipulation, and locomotion. We design additional experiments to verify the limitations of modeling either the conditional probability or the joint probability of the expert distribution as well as compare different generative models.">
+  <meta name="description" content="This work aims to augment BC by employing diffusion models for modeling expert behaviors, and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose diffusion model-augmented behavioral cloning (DBC) that combines our proposed diffusion model guided learning objective with the BC objective, which complements each other. Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, and locomotion.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://https://tmpjainyi.github.io//publication/dbc/">
@@ -279,13 +279,14 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="twitter:site" content="@Sahil1V">
-  <meta property="twitter:creator" content="@Sahil1V">
+  <meta property="twitter:site" content="@wangxchun0205">
+  <meta property="twitter:creator" content="@wangxchun0205">
   
-  <meta property="og:site_name" content="Sahil Verma">
+  <meta property="og:site_name" content="Hsiang-Chun Wang">
   <meta property="og:url" content="https://https://tmpjainyi.github.io//publication/dbc/">
-  <meta property="og:title" content="Counterfactual Explanations for Machine Learning: A Review | Sahil Verma">
-  <meta property="og:description" content="Machine learning plays a role in many deployed decision systems, often in ways that are difficult or impossible to understand by human stakeholders. Explaining, in a human-understandable way, the relationship between the input and output of machine learning models is essential to the development of trustworthy machine learning based systems. A burgeoning body of research seeks to define the goals and methods of explainability in machine learning. In this paper, we seek to review and categorize research on counterfactual explanations, a specific class of explanation that provides a link between what could have happened had input to a model been changed in a particular way. Modern approaches to counterfactual explainability in machine learning draw connections to the established legal doctrine in many countries, making them appealing to fielded systems in high-impact areas such as finance and healthcare. Thus, we design a rubric with desirable properties of counterfactual explanation algorithms and comprehensively evaluate all currently-proposed algorithms against that rubric. Our rubric provides easy comparison and comprehension of the advantages and disadvantages of different approaches and serves as an introduction to major research themes in this field. We also identify gaps and discuss promising research directions in the space of counterfactual explainability."><meta property="og:image" content="https://https://tmpjainyi.github.io//images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:title" content="Diffusion Model-Augmented Behavioral Cloning | Hsiang-Chun Wang">
+  <meta property="og:description" content="
+  This work aims to augment BC by employing diffusion models for modeling expert behaviors, and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose diffusion model-augmented behavioral cloning (DBC) that combines our proposed diffusion model guided learning objective with the BC objective, which complements each other. Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, and locomotion."><meta property="og:image" content="https://https://tmpjainyi.github.io//images/web_icon_512X512">
   <meta property="twitter:image" content="https://https://tmpjainyi.github.io//images/web_icon_512X512.jpeg"><meta property="og:locale" content="en-us">
   
     
@@ -306,7 +307,7 @@
 
 
 
-
+    
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -315,7 +316,7 @@
     "@type": "WebPage",
     "@id": "https://https://tmpjainyi.github.io//publication/dbc/"
   },
-  "headline": "Counterfactual Explanations for Machine Learning: A Review",
+  "headline": "Diffusion Model-Augmented Behavioral Cloning",
   
   "datePublished": "2020-11-27T13:37:35+05:30",
   "dateModified": "2020-10-20T00:00:00Z",
@@ -330,10 +331,10 @@
     "name": "University of Washington",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://https://tmpjainyi.github.io//images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://https://tmpjainyi.github.io//images/web_icon_192X192"
     }
   },
-  "description": "Machine learning plays a role in many deployed decision systems, often in ways that are difficult or impossible to understand by human stakeholders. Explaining, in a human-understandable way, the relationship between the input and output of machine learning models is essential to the development of trustworthy machine learning based systems. A burgeoning body of research seeks to define the goals and methods of explainability in machine learning. In this paper, we seek to review and categorize research on counterfactual explanations, a specific class of explanation that provides a link between what could have happened had input to a model been changed in a particular way. Modern approaches to counterfactual explainability in machine learning draw connections to the established legal doctrine in many countries, making them appealing to fielded systems in high-impact areas such as finance and healthcare. Thus, we design a rubric with desirable properties of counterfactual explanation algorithms and comprehensively evaluate all currently-proposed algorithms against that rubric. Our rubric provides easy comparison and comprehension of the advantages and disadvantages of different approaches and serves as an introduction to major research themes in this field. We also identify gaps and discuss promising research directions in the space of counterfactual explainability."
+  "description": "This work aims to augment BC by employing diffusion models for modeling expert behaviors, and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose diffusion model-augmented behavioral cloning (DBC) that combines our proposed diffusion model guided learning objective with the BC objective, which complements each other. Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, and locomotion."
 }
 </script>
 
@@ -351,7 +352,7 @@
 
 
 
-  <title>Counterfactual Explanations for Machine Learning: A Review | Sahil Verma</title>
+  <title>Diffusion Model-Augmented Behavioral Cloning | Hsiang-Chun Wang</title>
 
 </head>
 
@@ -694,7 +695,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Counterfactual Explanations for Machine Learning: A Review</h1>
+  <h1>Diffusion Model-Augmented Behavioral Cloning</h1>
 
   
 
@@ -779,7 +780,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2010.10596.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2302.13335.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -802,7 +803,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/dbc/slides_full_cfe_review.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/dbc/DBC_slide.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -812,9 +813,9 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/dbc/NeurIPS_final.mov" target="_blank" rel="noopener">
+<!-- <a class="btn btn-outline-primary my-1 mr-1" href="/publication/dbc/NeurIPS_final.mov" target="_blank" rel="noopener">
   Video
-</a>
+</a> -->
 
 
 
@@ -832,7 +833,8 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Machine learning plays a role in many deployed decision systems, often in ways that are difficult or impossible to understand by human stakeholders. Explaining, in a human-understandable way, the relationship between the input and output of machine learning models is essential to the development of trustworthy machine learning based systems. A burgeoning body of research seeks to define the goals and methods of explainability in machine learning. In this paper, we seek to review and categorize research on counterfactual explanations, a specific class of explanation that provides a link between what could have happened had input to a model been changed in a particular way. Modern approaches to counterfactual explainability in machine learning draw connections to the established legal doctrine in many countries, making them appealing to fielded systems in high-impact areas such as finance and healthcare. Thus, we design a rubric with desirable properties of counterfactual explanation algorithms and comprehensively evaluate all currently-proposed algorithms against that rubric. Our rubric provides easy comparison and comprehension of the advantages and disadvantages of different approaches and serves as an introduction to major research themes in this field. We also identify gaps and discuss promising research directions in the space of counterfactual explainability.</p>
+    <p class="pub-abstract">
+      This work aims to augment BC by employing diffusion models for modeling expert behaviors, and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose diffusion model-augmented behavioral cloning (DBC) that combines our proposed diffusion model guided learning objective with the BC objective, which complements each other. Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, and locomotion.</p>
     
 
     
