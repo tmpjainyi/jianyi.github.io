@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Sahil Verma</title>
-    <link>https://vsahil.github.io/post/</link>
-      <atom:link href="https://vsahil.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts | Hsiang-Chun Wang</title>
+    <link>https://hsiangchun0205.github.io/post/</link>
+      <atom:link href="https://hsiangchun0205.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jun 2021 01:55:33 +0530</lastBuildDate>
     <image>
-      <url>https://vsahil.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://vsahil.github.io/images/web_icon_512X512.jpeg</url>
       <title>Posts</title>
-      <link>https://vsahil.github.io/post/</link>
+      <link>https://hsiangchun0205.github.io/post/</link>
     </image>
     
     <item>
-      <title>Amortized Counterfactual Explanations</title>
-      <link>https://vsahil.github.io/post/amortized-counterfactuals2021/</link>
-      <pubDate>Tue, 15 Jun 2021 01:55:33 +0530</pubDate>
-      <guid>https://vsahil.github.io/post/amortized-counterfactuals2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reinforcement Learning for Counterfactual Explanations</title>
-      <link>https://vsahil.github.io/post/counterfactuals-survey/</link>
-      <pubDate>Tue, 15 Jun 2021 01:52:06 +0530</pubDate>
-      <guid>https://vsahil.github.io/post/counterfactuals-survey/</guid>
+      <title>Diffusion Model-Augmented Behavioral Cloning</title>
+      <link>https://hsiangchun0205.github.io/post/dbc/</link>
+      <pubDate>Tue, 15 Oct 2023 01:55:33 +0530</pubDate>
+      <guid>https://hsiangchun0205.github.io/post/dbc/</guid>
       <description></description>
     </item>
     
